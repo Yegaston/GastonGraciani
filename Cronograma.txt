@@ -1,1 +1,3 @@
-Alinear Gaston Graciani Full stack developer en el centro de la foto y seguir.
+-! Alinear Gaston Graciani Full stack developer en el centro de la foto y seguir.
+
+- Esconder barra de habilidades en dispositvos chicos y hacer que se vea primero quien soy y despues habildiades.
