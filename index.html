@@ -1,14 +1,13 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=https://github.com/Yegaston/GastonGraciani/tree/master/src" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="src/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="src/css/style.css" type="text/css" />
 </head>
 <body>
 
@@ -29,10 +28,13 @@
                                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">¿Quien soy?</a>
+                                <a class="nav-link" href="#quien">¿Quien soy?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="https://ghost-blog-gaston.herokuapp.com/">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -51,9 +53,9 @@
             
              <!-- Quien Soy movil-->
 
-           <div class="container d-lg-none">
+           <div id="quien" class="container d-lg-none">
               <div class="container-fluid text-center">
-                  <img src="assets/img/FotoPerfil.png" alt="Gaston Graciani">
+                  <img src="src/assets/img/FotoPerfil.png" alt="Gaston Graciani">
               </div>
               <!-- <br><br>   -->
               <div class="text-center">
@@ -71,22 +73,22 @@
             <h1 class="text-center">Habilidades</h1>
            
             <div class="text-center">
-                <img src='assets/img/Ubuntuserver.png' alt="Logo de ubuntu">
+                <img src='src/assets/img/Ubuntuserver.png' alt="Logo de ubuntu">
                 <h2>Ubuntu server</h2>
             </div>
               <br><br><br>
               <div class="text-center">
-                <img src="assets/img/HTML.png" alt="Logo HTML">
+                <img src="src/assets/img/HTML.png" alt="Logo HTML">
                 <h2>HTML</h2>
             </div>
               <br><br><br>
               <div class="text-center">
-                <img src='assets/img/CSS.png' alt="Logo CSS">
+                <img src='src/assets/img/CSS.png' alt="Logo CSS">
                 <h2>CSS</h2>
             </div>
               <br><br><br>
               <div class="text-center">
-                <img src='assets/img/JS.png' alt="Logo Javascript">
+                <img src='src/assets/img/JS.png' alt="Logo Javascript">
                 <h2>JavaScript</h2>
             </div>
           </div>
@@ -97,37 +99,39 @@
     <div class="d-none d-lg-block">
         <div class="row ">
             <div class="container col-6 text-center">
-                <img src="assets/img/FotoPerfil.png" alt="Foto de perfil">
+                <h2>¿Quien soy?</h2>
+                <img class="mt-5" src="src/assets/img/FotoPerfil.png" alt="Foto de perfil">
                 <br>
                 <h2 >Gaston Graciani</h2>
                 <h3 >Estudiante de </h3>
                 <h3 >Ing. Electronica</h3>
                 <br><br>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cum dolorum enim dolores repellendus delectus non, iure quod, doloribus asperiores aliquid animi labore ipsum ad autem, ex ullam magnam? Necessitatibus commodi molestias sint fuga qui doloremque at cumque? Nemo incidunt autem praesentium blanditiis earum, reprehenderit natus illum maxime exercitationem delectus.  
+                <h5>Apasionado por la electronica, y la red. Tengo conocimientos sobre HTML, CSS y JavaScript. JS es la tecnologia que mas me dedico a aprender, ya que sus posibilidades son infinitas, desde la creacion de applicaciones web, hasta el manejo de hardware.
                 </h5>
 
-                <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, mollitia tempora? Laboriosam illo repellendus rem asperiores excepturi accusamus ducimus qui. Provident eius soluta quam odio.</h5>
+                <h5>Mi tecnologia en el backend, principalmente es NodeJs,aunque se algo de Django. En el frontend me siento comodo usando ReactJs, y tambien en proyectos que no quiera algo muy elaborado, me gusta usar un motor de plantilla, como Handlebars.</h5>
                 
             </div>
     
         <div class="col-4 container text-left">
+            <h1>Habilidades</h1>
             <div>
-                <img src="assets/img/Ubuntuserver.png" alt="Ubuntu server">
+                <img class="mt-5" src="src/assets/img/Ubuntuserver.png" alt="Ubuntu server">
                 <h2 class="inlineg"> Servidores</h2>
             </div>
             <br><br>
             <div>
-                <img src="assets/img/HTML.png" alt="HTML 5">
+                <img src="src/assets/img/HTML.png" alt="HTML 5">
                 <h2 class="inlineg"> HTML 5</h2>
             </div>
             <br><br>
             <div>
-                <img src="assets/img/CSS.png" alt="CSS">
+                <img src="src/assets/img/CSS.png" alt="CSS">
                 <h2 class="inlineg"> CSS</h2>
             </div>
             <br><br>
             <div>
-                <img src="assets/img/JS.png" alt="Javascript">
+                <img src="src/assets/img/JS.png" alt="Javascript">
                 <h2 class="inlineg"> Javascript</h2>
             
         </div>
@@ -140,7 +144,7 @@
 
 <br><br><br><br>
 
-<footer class="container">
+<footer id="footer" class="container">
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017-2018 Gaston Graciani&middot; <a href="https://github.com/Yegaston" target="_blank">Github</a> &middot; <a href="#">Linkedin</a> &middot; <a href="#">Gastongraciani@gmail.com</a></p>
   </footer>
